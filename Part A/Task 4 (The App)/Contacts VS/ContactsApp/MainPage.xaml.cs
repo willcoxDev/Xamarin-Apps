@@ -51,6 +51,9 @@ namespace ContactsApp
 
         public async void createContacts()
         {
+            //Work around creating an XML file because Xamarin did not want to work correctly like shown in the tutorials.
+            //I tried for literally weeks to do it the way the course states but it simply does not work.
+            //Since in the assignment specifications it states the the XML file does not need to be saved it will populate this XML file each time.
             XmlDocument doc = new XmlDocument();
 
             XmlElement el0 = (XmlElement)doc.AppendChild(doc.CreateElement("Contacts"));
@@ -93,35 +96,12 @@ namespace ContactsApp
             contactsDoc = XDocument.Parse(doc.OuterXml);
 
             return;
-            //            file = await Windows.Storage.ApplicationData.Current.LocalFolder.CreateFileAsync("Contacts.xml");
-
-//            var path = Windows.Storage.ApplicationData.Current.LocalFolder.Path + "\\Contacts.xml";
-//
-//            var fs = new FileStream(path, FileMode.Create);
-
-//            doc.Save(fs);
-
-//            fs.Dispose();
-
-//            XmlReader xmlReader = XmlReader.Create(path);
-//            while (xmlReader.Read())
-//            {
-//                if (xmlReader.Name.Equals("ID") && (xmlReader.NodeType == XmlNodeType.Element))
-//                {
-//                    lstd.Add(xmlReader.ReadElementContentAsString());
-//                }
-//            }
-//            DataContext = this;
-//            xmlReader.Dispose();
 
         }
 
         public async void loadContacts()
         {
-//            var path = Windows.Storage.ApplicationData.Current.LocalFolder.Path + "\\Contacts.xml";
-
-//            XDocument xdoc = XDocument.Load(path);
-
+            //Adds the IDs of each contact to a list and populates the listbox
             var people = contactsDoc.Element("Contacts").Elements("Contact").ToArray();
 
             lstd.Clear();
@@ -134,25 +114,14 @@ namespace ContactsApp
 
             return;
 
-//            XmlReader xmlReader = XmlReader.Create("path");
-
-//            while (xmlReader.Read())
-//            {
-//                if (xmlReader.Name.Equals("ID") && (xmlReader.NodeType == XmlNodeType.Element))
-//                {
-//                    lstd.Add(xmlReader.ReadElementContentAsString());
-//                }
-//            }
-//            DataContext = this;
-//            xmlReader.Dispose();
         }
 
         private async void lstBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-//            StorageFile file = await Windows.Storage.ApplicationData.Current.LocalFolder.GetFileAsync("Contacts.xml");
+            //Populates the text boxes with the information for the contact.
             try
             {
-//                XDocument contactsDoc = XDocument.Load(file.Path);
+
                 if (lstBox.SelectedIndex != -1)
                 {
                     var nodes = (from n in contactsDoc.Descendants("Contact").
@@ -174,6 +143,7 @@ namespace ContactsApp
                         txtEmail.Text = n.Email;
                     };
                 }
+                //if non selected it will not populate anything
                 else
                 {
                     txtID.Text = "";
@@ -191,10 +161,11 @@ namespace ContactsApp
 
         private async void updateXMLFile(XDocument xdoc)
         {
+            //Writes the updated contact information to the XML file
             try
             {
-                //StorageFile file = await installedLocation.CreateFileAsync("Contacts.xml", CreationCollisionOption.ReplaceExisting);
-                StorageFile file = await Windows.Storage.ApplicationData.Current.LocalFolder.GetFileAsync("Contacts.xml"); //This line was the replacement for the one above.
+               
+                StorageFile file = await Windows.Storage.ApplicationData.Current.LocalFolder.GetFileAsync("Contacts.xml"); 
                 await FileIO.WriteTextAsync(file, xdoc.ToString());
             }
             catch (Exception ex)
@@ -205,8 +176,7 @@ namespace ContactsApp
 
         private async void btnUpdateContact_Click(object sender, RoutedEventArgs e)
         {
-//            StorageFile file = await Windows.Storage.ApplicationData.Current.LocalFolder.GetFileAsync("Contacts.xml");
-//            XDocument contactsDoc = XDocument.Load(file.Path);
+            // makes sure the user has selected an ID from the list box and then updates the XML file with information from the textboxes
             if (lstBox.SelectedIndex != -1)
             {
                 XElement upd = (from elements in contactsDoc.Descendants("Contact")
@@ -228,8 +198,7 @@ namespace ContactsApp
 
         private async void btnDeleteContact_Click(object sender, RoutedEventArgs e)
         {
-//            StorageFile file = await Windows.Storage.ApplicationData.Current.LocalFolder.GetFileAsync("Contacts.xml");
-//            XDocument contactsDoc = XDocument.Load(file.Path);
+            //makes sure the user has selected an ID from the listbox and then deletes the contact from the XML file.
             if (lstBox.SelectedIndex != -1)
             {
                 contactsDoc.Element("Contacts")
