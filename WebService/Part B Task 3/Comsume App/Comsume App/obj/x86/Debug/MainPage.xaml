@@ -7,15 +7,15 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid x:Name="grid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" HorizontalAlignment="Right" Width="360">
+    <Grid x:ConnectionId='1' x:Name="grid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" HorizontalAlignment="Right" Width="360">
         <VisualStateManager.VisualStateGroups>
-            <VisualStateGroup x:Name="VisualStateGroup">
-                <VisualState x:Name="Portrait">
+            <VisualStateGroup x:ConnectionId='2' x:Name="VisualStateGroup">
+                <VisualState x:ConnectionId='3' x:Name="Portrait">
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger/>
                     </VisualState.StateTriggers>
                 </VisualState>
-                <VisualState x:Name="Landscape">
+                <VisualState x:ConnectionId='4' x:Name="Landscape">
                     <VisualState.Setters>
                         <Setter Target="btnSearch.(FrameworkElement.Margin)">
                             <Setter.Value>
@@ -69,13 +69,14 @@
                 </VisualState>
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
-        <TextBox x:Name="txtProductCode" HorizontalAlignment="Left" Margin="154,85,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="14" Width="109"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="40,91,0,0" TextWrapping="Wrap" Text="Product Code:" VerticalAlignment="Top" Width="139"/>
-        <TextBlock x:Name="lblProductCode" Margin="10,185,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="67"/>
-        <TextBlock x:Name="lblProuctName" Margin="10,252,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="79"/>
-        <TextBlock x:Name="lblDescription" Margin="0,336,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="71"/>
-        <TextBlock x:Name="lblPrice" Margin="10,412,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="62"/>
-        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" Height="36" Margin="154,122,0,0" VerticalAlignment="Top" Width="142" Click="btnSearch_Click"/>
+        <TextBox x:ConnectionId='5' x:Name="txtProductCode" HorizontalAlignment="Left" Margin="154,85,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="14" Width="109"/>
+        <TextBlock x:ConnectionId='6' x:Name="textBlock" HorizontalAlignment="Left" Margin="40,91,0,0" TextWrapping="Wrap" Text="Product Code:" VerticalAlignment="Top" Width="139"/>
+        <TextBlock x:ConnectionId='7' x:Name="lblProductCode" Margin="10,185,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="67"/>
+        <TextBlock x:ConnectionId='8' x:Name="lblProuctName" Margin="10,252,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="79"/>
+        <TextBlock x:ConnectionId='9' x:Name="lblDescription" Margin="0,336,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="71"/>
+        <TextBlock x:ConnectionId='10' x:Name="lblPrice" Margin="10,412,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="62"/>
+        <Button x:ConnectionId='11' x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" Height="36" Margin="154,122,0,0" VerticalAlignment="Top" Width="142"                        />
 
     </Grid>
 </Page>
+
