@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Rick Pro\Desktop\Xamarin Apps\Module 10 Assignment\Contacts VS\ContactsApp\bin\x86\Debug\ContactsApp_1.0.0.0_x86_Debug.appx
+SymbolPackage=C:\Users\Rick Pro\Desktop\Xamarin Apps\Module 10 Assignment\Part A\App Package\ContactsApp_1.0.0.0_Debug_Test\ContactsApp_1.0.0.0_x86_Debug.appxsym
