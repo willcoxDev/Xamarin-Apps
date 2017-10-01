@@ -1,0 +1,34 @@
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\csc.exe
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\csc.exe.config
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\csc.rsp
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\csi.exe
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\csi.rsp
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\System.AppContext.dll
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\vbc.exe
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\vbc.exe.config
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\vbc.rsp
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\Web Service PC.dll.config
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\Web Service PC.dll
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\Web Service PC.pdb
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\obj\Debug\Web Service PC.csprojResolveAssemblyReference.cache
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\obj\Debug\Web Service PC.dll
+C:\Users\Rick\Desktop\Web Service PC\Web Service PC\obj\Debug\Web Service PC.pdb
