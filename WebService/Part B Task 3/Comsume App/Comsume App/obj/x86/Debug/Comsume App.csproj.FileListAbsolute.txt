@@ -210,3 +210,16 @@ C:\Users\Rick Pro\Desktop\Sep Mod 10 project\Module 10 Assignment\WebService\Par
 C:\Users\Rick Pro\Desktop\Sep Mod 10 project\Module 10 Assignment\WebService\Part B Task 3\Comsume App\Comsume App\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Rick Pro\Desktop\Sep Mod 10 project\Module 10 Assignment\WebService\Part B Task 3\Comsume App\Comsume App\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Rick Pro\Desktop\Sep Mod 10 project\Module 10 Assignment\WebService\Part B Task 3\Comsume App\Comsume App\obj\x86\Debug\Comsume App.csprojResolveAssemblyReference.cache
+C:\Users\Rick Pro\Desktop\Xamarin Apps\Module 10 Assignment\WebService\Part B Task 3\Comsume App\Comsume App\obj\x86\Debug\Comsume App.csprojResolveAssemblyReference.cache
+C:\Users\Rick Pro\Desktop\Xamarin Apps\Module 10 Assignment\WebService\Part B Task 3\Comsume App\Comsume App\obj\x86\Debug\App.g.i.cs
+C:\Users\Rick Pro\Desktop\Xamarin Apps\Module 10 Assignment\WebService\Part B Task 3\Comsume App\Comsume App\obj\x86\Debug\App.g.cs
+C:\Users\Rick Pro\Desktop\Xamarin Apps\Module 10 Assignment\WebService\Part B Task 3\Comsume App\Comsume App\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\Rick Pro\Desktop\Xamarin Apps\Module 10 Assignment\WebService\Part B Task 3\Comsume App\Comsume App\obj\x86\Debug\MainPage.g.cs
+C:\Users\Rick Pro\Desktop\Xamarin Apps\Module 10 Assignment\WebService\Part B Task 3\Comsume App\Comsume App\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\Rick Pro\Desktop\Xamarin Apps\Module 10 Assignment\WebService\Part B Task 3\Comsume App\Comsume App\obj\x86\Debug\App.xaml
+C:\Users\Rick Pro\Desktop\Xamarin Apps\Module 10 Assignment\WebService\Part B Task 3\Comsume App\Comsume App\obj\x86\Debug\MainPage.xaml
+C:\Users\Rick Pro\Desktop\Xamarin Apps\Module 10 Assignment\WebService\Part B Task 3\Comsume App\Comsume App\obj\x86\Debug\App.xbf
+C:\Users\Rick Pro\Desktop\Xamarin Apps\Module 10 Assignment\WebService\Part B Task 3\Comsume App\Comsume App\obj\x86\Debug\MainPage.xbf
+C:\Users\Rick Pro\Desktop\Xamarin Apps\Module 10 Assignment\WebService\Part B Task 3\Comsume App\Comsume App\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\Rick Pro\Desktop\Xamarin Apps\Module 10 Assignment\WebService\Part B Task 3\Comsume App\Comsume App\obj\x86\Debug\Comsume App.exe
+C:\Users\Rick Pro\Desktop\Xamarin Apps\Module 10 Assignment\WebService\Part B Task 3\Comsume App\Comsume App\obj\x86\Debug\Comsume App.pdb

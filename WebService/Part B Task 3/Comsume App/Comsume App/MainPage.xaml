@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid x:Name="grid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" HorizontalAlignment="Right" Width="360">
+    <Grid x:Name="grid" Background="#FFA1F1F5" HorizontalAlignment="Right" Width="360">
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup x:Name="VisualStateGroup">
                 <VisualState x:Name="Portrait">
@@ -69,13 +69,13 @@
                 </VisualState>
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
-        <TextBox x:Name="txtProductCode" HorizontalAlignment="Left" Margin="154,85,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="14" Width="109"/>
+        <TextBox x:Name="txtProductCode" HorizontalAlignment="Left" Margin="154,85,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="14" Width="109" Background="White"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="40,91,0,0" TextWrapping="Wrap" Text="Product Code:" VerticalAlignment="Top" Width="139"/>
         <TextBlock x:Name="lblProductCode" Margin="10,185,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="67"/>
         <TextBlock x:Name="lblProuctName" Margin="10,252,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="79"/>
         <TextBlock x:Name="lblDescription" Margin="0,336,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="71"/>
         <TextBlock x:Name="lblPrice" Margin="10,412,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="62"/>
-        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" Height="36" Margin="154,122,0,0" VerticalAlignment="Top" Width="142" Click="btnSearch_Click"/>
+        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" Height="36" Margin="154,122,0,0" VerticalAlignment="Top" Width="142" Click="btnSearch_Click" Background="#FF6CF738"/>
 
     </Grid>
 </Page>
