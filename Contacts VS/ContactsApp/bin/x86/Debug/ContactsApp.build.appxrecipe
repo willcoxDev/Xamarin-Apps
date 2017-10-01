@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>c20638aa-a857-4d5a-8893-cd926f959ec1</PackageIdentityName>
     <PackageIdentityPublisher>CN=Rick Pro</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Rick Pro\Desktop\CA test\ContactsApp\ContactsApp\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Rick Pro\Desktop\Sep Mod 10 project\Module 10 Assignment\Contacts VS\ContactsApp\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Rick Pro\Desktop\CA test\ContactsApp\ContactsApp\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Rick Pro\Desktop\Sep Mod 10 project\Module 10 Assignment\Contacts VS\ContactsApp\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Rick Pro\Desktop\CA test\ContactsApp\ContactsApp\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Rick Pro\Desktop\Sep Mod 10 project\Module 10 Assignment\Contacts VS\ContactsApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\CA test\ContactsApp\ContactsApp\bin\x86\Debug\ContactsApp.exe">
+    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\Sep Mod 10 project\Module 10 Assignment\Contacts VS\ContactsApp\bin\x86\Debug\ContactsApp.exe">
       <PackagePath>entrypoint\ContactsApp.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rick Pro\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
@@ -370,50 +370,50 @@
     <AppxPackagedFile Include="C:\Users\Rick Pro\.nuget\packages\System.Xml.XmlSerializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\CA test\ContactsApp\ContactsApp\Contacts.xml">
+    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\Sep Mod 10 project\Module 10 Assignment\Contacts VS\ContactsApp\Contacts.xml">
       <PackagePath>Contacts.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\CA test\ContactsApp\ContactsApp\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\Sep Mod 10 project\Module 10 Assignment\Contacts VS\ContactsApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\CA test\ContactsApp\ContactsApp\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\Sep Mod 10 project\Module 10 Assignment\Contacts VS\ContactsApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\CA test\ContactsApp\ContactsApp\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\Sep Mod 10 project\Module 10 Assignment\Contacts VS\ContactsApp\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\CA test\ContactsApp\ContactsApp\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\Sep Mod 10 project\Module 10 Assignment\Contacts VS\ContactsApp\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\CA test\ContactsApp\ContactsApp\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\Sep Mod 10 project\Module 10 Assignment\Contacts VS\ContactsApp\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\CA test\ContactsApp\ContactsApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\Sep Mod 10 project\Module 10 Assignment\Contacts VS\ContactsApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\CA test\ContactsApp\ContactsApp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\Sep Mod 10 project\Module 10 Assignment\Contacts VS\ContactsApp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\CA test\ContactsApp\ContactsApp\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\Sep Mod 10 project\Module 10 Assignment\Contacts VS\ContactsApp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\CA test\ContactsApp\ContactsApp\bin\x86\Debug\ContactsApp.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\Sep Mod 10 project\Module 10 Assignment\Contacts VS\ContactsApp\bin\x86\Debug\ContactsApp.xr.xml">
       <PackagePath>ContactsApp.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\CA test\ContactsApp\ContactsApp\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\Sep Mod 10 project\Module 10 Assignment\Contacts VS\ContactsApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\CA test\ContactsApp\ContactsApp\bin\x86\Debug\Core\ContactsApp.exe">
+    <AppxPackagedFile Include="C:\Users\Rick Pro\Desktop\Sep Mod 10 project\Module 10 Assignment\Contacts VS\ContactsApp\bin\x86\Debug\Core\ContactsApp.exe">
       <PackagePath>ContactsApp.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

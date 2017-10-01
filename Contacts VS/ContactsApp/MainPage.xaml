@@ -8,6 +8,85 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loading="Grid_Loading" ScrollViewer.VerticalScrollMode="Enabled">
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="VisualStateGroup">
+                <VisualState x:Name="Portrait"/>
+                <VisualState x:Name="Landscape">
+                    <VisualState.Setters>
+                        <Setter Target="lstBox.(FrameworkElement.Height)" Value="147.448"/>
+                        <Setter Target="lstBox.(FrameworkElement.Margin)">
+                            <Setter.Value>
+                                <Thickness>13.079,28.162,0,0</Thickness>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Target="lstBox.(FrameworkElement.Width)" Value="130.377"/>
+                        <Setter Target="lblID.(FrameworkElement.Margin)">
+                            <Setter.Value>
+                                <Thickness>159,46,0,0</Thickness>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Target="lblFirstName.(FrameworkElement.Margin)">
+                            <Setter.Value>
+                                <Thickness>159,83,0,0</Thickness>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Target="lblLastName.(FrameworkElement.Margin)">
+                            <Setter.Value>
+                                <Thickness>159,120,0,0</Thickness>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Target="lblEmail.(FrameworkElement.Margin)">
+                            <Setter.Value>
+                                <Thickness>159,195,0,0</Thickness>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Target="textBlock.(FrameworkElement.Margin)">
+                            <Setter.Value>
+                                <Thickness>159,158,0,0</Thickness>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Target="btnUpdateContact.(FrameworkElement.Margin)">
+                            <Setter.Value>
+                                <Thickness>412,262,0,0</Thickness>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Target="txtID.(FrameworkElement.Margin)">
+                            <Setter.Value>
+                                <Thickness>259,47,136,0</Thickness>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Target="txtFirstName.(FrameworkElement.Margin)">
+                            <Setter.Value>
+                                <Thickness>259,84,136,0</Thickness>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Target="txtLastName.(FrameworkElement.Margin)">
+                            <Setter.Value>
+                                <Thickness>259,121,136,0</Thickness>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Target="txtMobile.(FrameworkElement.Margin)">
+                            <Setter.Value>
+                                <Thickness>259,158,136,0</Thickness>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Target="txtEmail.(FrameworkElement.Margin)">
+                            <Setter.Value>
+                                <Thickness>259,195,136,0</Thickness>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Target="btnDeleteContact.(FrameworkElement.Margin)">
+                            <Setter.Value>
+                                <Thickness>412,299,0,0</Thickness>
+                            </Setter.Value>
+                        </Setter>
+                    </VisualState.Setters>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="500"/>
+                    </VisualState.StateTriggers>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
         <ScrollViewer Margin="10">
             <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loading="Grid_Loading" ScrollViewer.VerticalScrollMode="Enabled">
                 <ListView x:Name="lstBox" HorizontalAlignment="Left" Height="191.544" Margin="61.776,26.986,0,0" VerticalAlignment="Top" Width="239.363" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" ItemsSource="{Binding myList}" SelectionChanged="lstBox_SelectionChanged">
@@ -21,7 +100,7 @@
                 <TextBlock x:Name="lblFirstName" HorizontalAlignment="Left" Margin="48,273,0,0" TextWrapping="Wrap" Text="First Name:" VerticalAlignment="Top"/>
                 <TextBlock x:Name="lblLastName" HorizontalAlignment="Left" Margin="48,310,0,0" TextWrapping="Wrap" Text="Last Name:" VerticalAlignment="Top"/>
                 <TextBlock x:Name="lblEmail" HorizontalAlignment="Left" Margin="48,385,0,0" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Top"/>
-                <TextBlock HorizontalAlignment="Left" Margin="48,348,0,0" TextWrapping="Wrap" Text="Mobile:" VerticalAlignment="Top"/>
+                <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="48,348,0,0" TextWrapping="Wrap" Text="Mobile:" VerticalAlignment="Top"/>
                 <TextBox x:Name="txtID" Margin="137,230,72,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="20" Background="White" IsReadOnly="True"/>
                 <TextBox x:Name="txtFirstName" Margin="137,267,72,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="20" Background="White"/>
                 <TextBox x:Name="txtLastName" Margin="137,304,72,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="20" Background="White"/>
