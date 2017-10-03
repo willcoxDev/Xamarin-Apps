@@ -1,0 +1,1 @@
+C:\Users\Rick\Desktop\Xamarin-Apps\WebService\WebConsume\WebConsume\WebConsume.csproj;x86

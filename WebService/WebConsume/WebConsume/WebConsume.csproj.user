@@ -2,7 +2,7 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DeviceId>7C3F55B7-619D-452D-B6B0-A4A36BC552CC</DeviceId>
-    <UseEmulator>true</UseEmulator>
+    <UseEmulator>false</UseEmulator>
     <UseSimulator>false</UseSimulator>
   </PropertyGroup>
 </Project>

@@ -1,0 +1,6 @@
+C:\Users\Rick\Desktop\Xamarin-Apps\WebService\WebServiceHost\WebServiceHost\bin\WebServiceHost.dll.config
+C:\Users\Rick\Desktop\Xamarin-Apps\WebService\WebServiceHost\WebServiceHost\bin\WebServiceHost.dll
+C:\Users\Rick\Desktop\Xamarin-Apps\WebService\WebServiceHost\WebServiceHost\bin\WebServiceHost.pdb
+C:\Users\Rick\Desktop\Xamarin-Apps\WebService\WebServiceHost\WebServiceHost\obj\Debug\WebServiceHost.csprojResolveAssemblyReference.cache
+C:\Users\Rick\Desktop\Xamarin-Apps\WebService\WebServiceHost\WebServiceHost\obj\Debug\WebServiceHost.dll
+C:\Users\Rick\Desktop\Xamarin-Apps\WebService\WebServiceHost\WebServiceHost\obj\Debug\WebServiceHost.pdb

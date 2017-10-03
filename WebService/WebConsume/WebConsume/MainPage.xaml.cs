@@ -22,9 +22,12 @@ namespace WebConsume
     /// </summary>
     public sealed partial class MainPage : Page
     {
+       
+
         public MainPage()
         {
             this.InitializeComponent();
+            
         }
 
 
@@ -40,6 +43,21 @@ namespace WebConsume
             lblProuctName.Text = "Product Name: " + ProductDetailsResponse.Body.GetProductDetailsResult.Title;
             lblDescription.Text = "Description:  " + ProductDetailsResponse.Body.GetProductDetailsResult.Description;
             lblPrice.Text = "Price:        " + ProductDetailsResponse.Body.GetProductDetailsResult.Price;
+
+        }
+
+        private void themeBlue_Click(object sender, RoutedEventArgs e)
+        {
+            lblProductCode.Foreground = Brush.Navy
+        }
+
+        private void themeBlack_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void themeRed_Click(object sender, RoutedEventArgs e)
+        {
 
         }
     }

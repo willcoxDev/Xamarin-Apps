@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="#FF89FBEC">
+    <Grid x:Name="background" Background="#FF89FBEC">
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup x:Name="VisualStateGroup">
                 <VisualState x:Name="Portrait">
@@ -50,7 +50,7 @@
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
         <TextBox x:Name="txtProductCode" HorizontalAlignment="Left" Margin="10,148,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="14" Width="109" Background="White"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="40,91,0,0" TextWrapping="Wrap" Text="Product Code:" VerticalAlignment="Top" Width="139"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="40,91,0,0" TextWrapping="Wrap" Text="Product Code:" VerticalAlignment="Top" Width="139" FontFamily="Times New Roman"/>
         <TextBlock x:Name="lblProductCode" Margin="10,185,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="67"/>
         <TextBlock x:Name="lblProuctName" Margin="10,252,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="79"/>
         <TextBlock x:Name="lblDescription" Margin="0,336,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="71"/>
@@ -61,6 +61,17 @@
             <ComboBoxItem Content="UG2" Width="139" Height="40"/>
             <ComboBoxItem Content="UG3" Width="139" Height="40"/>
         </ComboBox>
-
     </Grid>
+    <Page.BottomAppBar>
+        <AppBar Background="AliceBlue" IsOpen="True" HorizontalAlignment="Right" Width="432">
+            <StackPanel Orientation="Horizontal">
+                <AppBarSeparator Width="12"></AppBarSeparator>
+                <AppBarButton x:Name="themeBlue" Icon="Edit" Label="Blue Theme" Foreground="Blue" CharacterSpacing="3" Width="70" FontFamily="Times New Roman" Click="themeBlue_Click"></AppBarButton>
+                <AppBarSeparator Width="12"></AppBarSeparator>
+                <AppBarButton x:Name="themeBlack" Icon="Edit" Label="Black Theme" Foreground="Black" CharacterSpacing="3" Width="70" FontFamily="Times New Roman" Click="themeBlack_Click"></AppBarButton>
+                <AppBarSeparator Width="12"></AppBarSeparator>
+                <AppBarButton x:Name="themeRed" Icon="Edit" Label="Red Theme" Foreground="Red" CharacterSpacing="3" Width="70" FontFamily="Times New Roman" Click="themeRed_Click"></AppBarButton>
+            </StackPanel>
+        </AppBar>
+    </Page.BottomAppBar>
 </Page>
